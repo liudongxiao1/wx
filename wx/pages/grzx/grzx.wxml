@@ -1,0 +1,47 @@
+<!--pages/grzx/grzx.wxml-->
+<view class='base'>
+<view class='top'>
+<view class='scimg'>
+<image class='cimg' src='{{imgpath}}'></image>
+
+</view>
+
+<view class='mz'><text>{{yk}}</text></view>
+</view>
+<view class='sousuo'>
+<input placeholder='搜索'  class='ss' bindinput='ss'></input>
+<button  class='bu' bindtap='btnclcik'>查询</button>
+</view>
+
+
+
+
+
+</view>
+<view class='content'>
+<block wx:if="{{flag}}">
+<view class='xi'>
+<view class='img'>
+<image class='cimg' src='{{imgfacepath.face}}'></image>
+</view>
+<view class='tx'>
+<text>姓名：{{username}}</text>
+<text>性别：{{imgfacepath.sex}}</text>
+<text>籍贯：{{imgfacepath.address}}</text>
+<text>薪资：{{imgfacepath.gz}}</text>
+</view>
+</view>
+<view class='call'>
+<text bindtap='phonecall' data-aa='{{imgfacepath.phone}}'>电话号码：{{imgfacepath.phone}}</text>
+<button class='bt' bindtap='phonecall' data-aa='{{imgfacepath.phone}}'>拨打</button>
+</view>
+<view class='aud'>
+<audio  class='au' src='{{imgfacepath.adiuo}}' controls='controls' poster='{{imgfacepath.img}}' author='{{imgfacepath.author}}' name='{{imgfacepath.auname}}'></audio>
+
+<video controls='controls' autoplay='autopaly' src='{{imgfacepath.video}}'></video>
+</view>
+</block>
+
+
+
+</view>

@@ -1,0 +1,35 @@
+<!--pages/denglu/denglu.wxml-->
+<view class='base' >
+<view class='tp'>
+    <image class='img'></image>
+</view>
+<view class='aa'>
+<view class='sucai'>
+     <image class='img'></image>
+</view>
+    <input placeholder='请输入用户名' class='yh' bindinput='yhk'></input>
+</view>
+<view class='aa'>
+<view class='sucai'>
+     <image class='img' ></image>
+</view>
+<view>
+
+<input placeholder='请输入密码' class='yh' bindinput='mmk'></input>
+</view>
+</view>
+<view class='zong' >
+  <view class='bb'>
+       <input placeholder='请输入验证码' class='yz' bindinput='yzk'></input>
+  </view>
+  <view class='yzm' bindtap='yzm'>
+       <text>{{sjs}}</text>
+  </view>
+ 
+</view>
+ <view class='jieguo'><text>{{shuchu}}</text></view>
+<view  class='zong' >
+<button class='bt' bindtap='zc' >注册</button>
+<button class='bt'  bindtap='dl'>登陆</button>
+</view>
+</view>

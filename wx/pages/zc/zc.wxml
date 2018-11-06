@@ -1,0 +1,43 @@
+<!--pages/zc/zc.wxml-->
+<view class='base'>
+<view class='sck'>
+
+<view class='scimg'>
+<image class='cimg' src='{{imgpath}}'></image>
+</view>
+<button class='bt' bindtap='sc'>点击上传</button>
+</view>
+<view class='aa'>
+
+    <input placeholder='请输入用户名' class='yh' bindinput='yhk'></input>
+</view>
+<view class='aa'>
+
+    <input placeholder='性别' class='yh' bindinput='sex'></input>
+</view>
+<view class='aa'>
+
+    <input placeholder='手机' class='yh' bindinput='phone'></input>
+</view>
+<view class='aa'>
+
+<view>
+
+<input placeholder='请输入密码' class='yh' bindinput='mmk'></input>
+</view>
+</view>
+<view class='zong' >
+  <view class='bb'>
+       <input placeholder='请输入验证码' class='yz' bindinput='yzk'></input>
+  </view>
+  <view class='yzm' bindtap='yzm'>
+       <text>{{sjs}}</text>
+  </view>
+ 
+</view>
+<view  class='zong' >
+<button class='bt' bindtap='zc' >注册</button>
+
+</view>
+
+</view>

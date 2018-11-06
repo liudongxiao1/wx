@@ -1,0 +1,38 @@
+/* pages/java/java.wxss */
+.top
+{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+   background-color: cornflowerblue;
+   justify-content: center;
+}
+.daoh{
+  width: 33.3%;
+  border: 2rpx solid black;
+  height: 10vh;
+  display: flex;
+    align-items: center;
+  justify-content: center;
+ 
+}
+.xinwen
+{
+  width: 50%;
+  height: 400rpx;
+  border: 2rpx solid black;
+  
+}
+.zxinwen
+{
+  display: flex;
+ 
+}
+.gonggao
+{
+  width: 100%;
+  height: 305rpx;
+  border: 2rpx solid black;
+  
+}

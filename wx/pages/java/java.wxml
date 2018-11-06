@@ -1,0 +1,24 @@
+<!--pages/java/java.wxml-->
+
+<view class='base'>
+
+<swiper indicator-dots='true' autoplay='true' indicator-color='hotpink' interval='3000' duration='5000'>
+<block wx:for='{{tupian}}'>
+<swiper-item>
+<image src='{{item}}'></image>
+</swiper-item>
+</block>
+</swiper>
+<view class='top'>
+<view class='daoh'>首页</view>
+<view class='daoh'>新闻</view>
+
+
+<view class='daoh' bindtap='dl'>个人中心</view>
+</view>
+<view class='zxinwen'>
+<view class='xinwen'></view>
+<view class='xinwen'></view>
+</view>
+<view class='gonggao'> </view>
+</view>

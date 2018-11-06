@@ -1,0 +1,49 @@
+/* pages/grzx/grzx.wxss */
+.cimg{
+  width: 100%;
+  height: 100%;
+}
+.scimg{
+  width: 150rpx;
+  height:150rpx;
+  border: solid 5rpx beige; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200rpx;
+}
+.top{
+  width: 100%;
+  height: 160rpx;
+  background:rgb(2, 152, 238);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.mz
+{
+  width: 200rpx;
+  height: 50rpx;
+  border: 2rpx solid black;
+}
+.ss{
+  display: flex;
+  justify-content: center;
+  border: 2rxp solid black;
+  width: 650rpx;
+  height: 50rpx;
+  background-color: rgb(223, 217, 217);
+  text-align: center;
+}
+.sousuo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bu{
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+
+}

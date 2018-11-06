@@ -1,0 +1,19 @@
+{
+  "pages": [
+    
+    "pages/grzx/grzx",
+    "pages/denglu/denglu",
+   
+    "pages/java/java",
+    "pages/zc/zc",
+    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
